@@ -2,5 +2,9 @@ Library/
 Temp/
 Packages/
 Logs/
+Assets/Plugins/
+Assets/Plugins.meta
 
 *.sln
+*.csproj
+.idea
