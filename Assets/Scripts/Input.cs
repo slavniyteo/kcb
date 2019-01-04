@@ -22,14 +22,11 @@ public class Input : MonoBehaviour
 
     private void ApplyKeyDown(Event e)
     {
-        Target t = null;
-        db.dict.TryGetValue(e.keyCode, out t);
+        var t = db.GetSample(e.keyCode);
 
         if (t == null) return;
 
         pic.sprite = t.picture;
         letter.text = t.text;
-
-        Debug.Log($"Key {t.key} is pressed");
     }
 }
