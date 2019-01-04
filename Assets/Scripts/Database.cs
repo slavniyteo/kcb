@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using OneLine;
 using UnityEngine;
 
 [CreateAssetMenu(fileName="Database", menuName="Database")]
 public class Database : ScriptableObject
 {
-    [SerializeField] private List<Target> list = new List<Target>();
+    [SerializeField, OneLine, HideLabel] private List<Target> list = new List<Target>();
 
     public Dictionary<KeyCode, Target> dict;
 
