@@ -1,20 +1,13 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
-using System.Security.Permissions;
 using OneLine;
 using UnityEngine;
-using UnityEngine.Experimental.UIElements;
 using Random = UnityEngine.Random;
-
-#if UNITY_EDITOR
-using UnityEditor;
-#endif
 
 [CreateAssetMenu(fileName = "Database", menuName = "Database")]
 public class Database : ScriptableObject
 {
-    [SerializeField, OneLine, HideLabel] private List<TargetVariants> list = new List<TargetVariants>();
+    [SerializeField] private List<TargetVariants> list = new List<TargetVariants>();
 
     public Dictionary<KeyCode, TargetVariants> dict;
 
@@ -37,30 +30,15 @@ public class Database : ScriptableObject
 
         return list.Sample();
     }
-
-#if UNITY_EDITOR
-    [ContextMenu("InitializeAlphabet")]
-    public void InitializeAlphabet()
-    {
-        list = new List<TargetVariants>();
-
-        for (int i = 97; i <= 122; i++)
-        {
-            var targets = new TargetVariants();
-            targets.key = (KeyCode) i;
-            
-            list.Add(targets);
-        }
-        EditorUtility.SetDirty(this);
-    }
-#endif
+    
 }
 
 [Serializable]
 public class TargetVariants
 {
-    [SerializeField, Width(50)] public KeyCode key;
-    [SerializeField] public List<Target> list;
+    [SerializeField] public string letter;
+    [SerializeField] public KeyCode key;
+    [SerializeField, OneLine] public List<Target> list;
 
     public Target Sample()
     {
@@ -73,7 +51,6 @@ public class TargetVariants
 [Serializable]
 public class Target
 {
-    [SerializeField, Width(30)] public string letter;
-    [SerializeField, Width(100)] public string text;
-    [SerializeField, Width(50)] public Sprite picture;
+    [SerializeField] public string text;
+    [SerializeField] public Sprite picture;
 }

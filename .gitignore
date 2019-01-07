@@ -4,6 +4,9 @@ Packages/
 Logs/
 Assets/Plugins/
 Assets/Plugins.meta
+bin/
+.vs/
+.vscode/
 
 *.sln
 *.csproj
