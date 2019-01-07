@@ -18,6 +18,12 @@ MonoBehaviour:
     - letter: "\u0424"
       text: "\u0424\u0415\u042F"
       picture: {fileID: 21300000, guid: 5d89d32ab891f5692b929803ab4ea4b7, type: 3}
+    - letter: "\u0424"
+      text: "\u0424\u0420\u0423\u041A\u0422\u042B"
+      picture: {fileID: 21300000, guid: 97abd489d1f3661a38f618b02f9e977c, type: 3}
+    - letter: "\u0424"
+      text: "\u0424\u0420\u0423\u041A\u0422\u042B"
+      picture: {fileID: 21300002, guid: 97abd489d1f3661a38f618b02f9e977c, type: 3}
   - key: 98
     list:
     - letter: "\u0418"
@@ -28,11 +34,23 @@ MonoBehaviour:
     - letter: "\u0421"
       text: "\u0421\u041E\u041B\u041D\u0426\u0415"
       picture: {fileID: 21300000, guid: 4d85165686c5cff1eb5aa48505e69e7e, type: 3}
+    - letter: "\u0421"
+      text: "\u0421\u041E\u0412\u0410"
+      picture: {fileID: 21300018, guid: e60bcc849ecc5779bb1d6cc92732f25b, type: 3}
+    - letter: "\u0421"
+      text: "\u0421\u041E\u0412\u0410"
+      picture: {fileID: 21300034, guid: e60bcc849ecc5779bb1d6cc92732f25b, type: 3}
   - key: 100
     list:
     - letter: "\u0412"
       text: "\u0412\u041E\u041B\u041A"
       picture: {fileID: 21300000, guid: b9fc614c924c6ce9c965b014eae75feb, type: 3}
+    - letter: "\u0412"
+      text: "\u0412\u041E\u0420\u041E\u041D"
+      picture: {fileID: 21300006, guid: e60bcc849ecc5779bb1d6cc92732f25b, type: 3}
+    - letter: "\u0412"
+      text: "\u0412\u041E\u0420\u041E\u041D"
+      picture: {fileID: 21300020, guid: e60bcc849ecc5779bb1d6cc92732f25b, type: 3}
   - key: 101
     list:
     - letter: "\u0423"
@@ -48,6 +66,12 @@ MonoBehaviour:
     - letter: "\u041F"
       text: "\u041F\u0415\u0422\u0423\u0425"
       picture: {fileID: 21300000, guid: f131bb44e9456a7c086df7346aa6013d, type: 3}
+    - letter: "\u041F"
+      text: "\u041F\u0422\u0418\u0427\u041A\u0418"
+      picture: {fileID: 21300000, guid: fa1a0a223884de61889948419d2f5e75, type: 3}
+    - letter: "\u041F"
+      text: "\u041F\u0418\u041D\u0413\u0412\u0418\u041D"
+      picture: {fileID: 21300014, guid: e60bcc849ecc5779bb1d6cc92732f25b, type: 3}
   - key: 104
     list:
     - letter: "\u0420"
@@ -68,6 +92,12 @@ MonoBehaviour:
     - letter: "\u041B"
       text: "\u041B\u0418\u041C\u041E\u041D"
       picture: {fileID: 21300000, guid: e47ea915ee700dd89bc2a997c5de0ea3, type: 3}
+    - letter: "\u041B"
+      text: "\u041B\u041E\u0421\u042F\u0428"
+      picture: {fileID: 21300010, guid: e60bcc849ecc5779bb1d6cc92732f25b, type: 3}
+    - letter: "\u041B"
+      text: "\u041B\u041E\u0421\u042F\u0428"
+      picture: {fileID: 21300022, guid: e60bcc849ecc5779bb1d6cc92732f25b, type: 3}
   - key: 108
     list:
     - letter: "\u0414"
@@ -78,11 +108,20 @@ MonoBehaviour:
     - letter: "\u042C"
       text: "\u041C\u042B\u0428\u042C"
       picture: {fileID: 21300000, guid: ac0e46eac45d54d3099184eae2f205cb, type: 3}
+    - letter: "\u042C"
+      text: "\u041C\u0415\u0414\u0412\u0415\u0414\u042C"
+      picture: {fileID: 21300008, guid: e60bcc849ecc5779bb1d6cc92732f25b, type: 3}
+    - letter: "\u042C"
+      text: "\u041C\u0415\u0414\u0412\u0415\u0414\u042C"
+      picture: {fileID: 21300026, guid: e60bcc849ecc5779bb1d6cc92732f25b, type: 3}
   - key: 110
     list:
     - letter: "\u0422"
       text: "\u0422\u0418\u0413\u0420"
       picture: {fileID: 21300000, guid: 059b93beffae046c6841caefcca8daa6, type: 3}
+    - letter: "\u0422"
+      text: "\u0422\u0420\u0410\u041A\u0422\u041E\u0420"
+      picture: {fileID: 21300000, guid: 35c8f607d8b7abc0b8fe6cc30b1adc44, type: 3}
   - key: 111
     list:
     - letter: "\u0429"
@@ -103,6 +142,12 @@ MonoBehaviour:
     - letter: "\u041A"
       text: "\u041A\u041E\u041B\u0415\u0421\u041E"
       picture: {fileID: 21300000, guid: 8ff82211fe401b459accfda016ff2c45, type: 3}
+    - letter: "\u041A"
+      text: "\u041A\u0420\u041E\u041B\u0418\u041A"
+      picture: {fileID: 21300004, guid: e60bcc849ecc5779bb1d6cc92732f25b, type: 3}
+    - letter: "\u041A"
+      text: "\u041A\u0420\u041E\u041B\u0418\u041A"
+      picture: {fileID: 21300016, guid: e60bcc849ecc5779bb1d6cc92732f25b, type: 3}
   - key: 115
     list:
     - letter: "\u042B"
@@ -113,6 +158,12 @@ MonoBehaviour:
     - letter: "\u0415"
       text: "\u0415\u0416\u0415\u0412\u0418\u041A\u0410"
       picture: {fileID: 21300000, guid: f7aa310fad318c470a257ec9a13901fc, type: 3}
+    - letter: "\u0415"
+      text: "\u0401\u0436\u0438\u043A"
+      picture: {fileID: 21300000, guid: e60bcc849ecc5779bb1d6cc92732f25b, type: 3}
+    - letter: "\u0415"
+      text: "\u0401\u0436\u0438\u043A"
+      picture: {fileID: 21300028, guid: e60bcc849ecc5779bb1d6cc92732f25b, type: 3}
   - key: 117
     list:
     - letter: "\u0413"
@@ -138,6 +189,12 @@ MonoBehaviour:
     - letter: "\u041D"
       text: "\u041D\u041E\u0416\u041D\u0418\u0426\u042B"
       picture: {fileID: 21300000, guid: edaebb53096b7462199ab28c5e6cf35f, type: 3}
+    - letter: "\u041D"
+      text: "\u041D\u042E\u0428\u0410"
+      picture: {fileID: 21300012, guid: e60bcc849ecc5779bb1d6cc92732f25b, type: 3}
+    - letter: "\u041D"
+      text: "\u041D\u042E\u0428\u0410"
+      picture: {fileID: 21300030, guid: e60bcc849ecc5779bb1d6cc92732f25b, type: 3}
   - key: 122
     list:
     - letter: "\u042F"
@@ -148,6 +205,12 @@ MonoBehaviour:
     - letter: "\u0411"
       text: "\u0411\u0410\u0411\u041E\u0427\u041A\u0410"
       picture: {fileID: 21300000, guid: 37adadc375072d2cc948462a412fc41b, type: 3}
+    - letter: "\u0411"
+      text: "\u0411\u0410\u0420\u0410\u0428\u0415\u041A"
+      picture: {fileID: 21300002, guid: e60bcc849ecc5779bb1d6cc92732f25b, type: 3}
+    - letter: "\u0411"
+      text: "\u0411\u0410\u0420\u0410\u0428\u0415\u041A"
+      picture: {fileID: 21300024, guid: e60bcc849ecc5779bb1d6cc92732f25b, type: 3}
   - key: 39
     list:
     - letter: "\u042D"
